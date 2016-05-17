@@ -15,6 +15,14 @@
 		D0B038AE1CE8452600784C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B038AC1CE8452600784C7F /* LaunchScreen.storyboard */; };
 		D0B038B91CE8452600784C7F /* HandyCharacterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B038B81CE8452600784C7F /* HandyCharacterAppTests.swift */; };
 		D0B038C41CE8452600784C7F /* HandyCharacterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B038C31CE8452600784C7F /* HandyCharacterAppUITests.swift */; };
+		D0B038D41CE8458500784C7F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B038D31CE8458500784C7F /* ProfileViewController.swift */; };
+		D0B038D71CE8468C00784C7F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B038D51CE8468C00784C7F /* Profile.storyboard */; };
+		D0B038D91CEAC7D000784C7F /* Stats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B038D81CEAC7D000784C7F /* Stats.storyboard */; };
+		D0B038DC1CEACBE300784C7F /* Action.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B038DA1CEACBE300784C7F /* Action.storyboard */; };
+		D0B038DE1CEACD5100784C7F /* Equipment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B038DD1CEACD5100784C7F /* Equipment.storyboard */; };
+		D0B038E11CEACD8F00784C7F /* Notes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B038DF1CEACD8F00784C7F /* Notes.storyboard */; };
+		D0B038E31CEACDF900784C7F /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B038E21CEACDF900784C7F /* Settings.storyboard */; };
+		D0B038E61CEACE4B00784C7F /* Life.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B038E41CEACE4B00784C7F /* Life.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		D0B038BF1CE8452600784C7F /* HandyCharacterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandyCharacterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B038C31CE8452600784C7F /* HandyCharacterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyCharacterAppUITests.swift; sourceTree = "<group>"; };
 		D0B038C51CE8452600784C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B038D31CE8458500784C7F /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D0B038D61CE8468C00784C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		D0B038D81CEAC7D000784C7F /* Stats.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Stats.storyboard; sourceTree = "<group>"; };
+		D0B038DB1CEACBE300784C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Action.storyboard; sourceTree = "<group>"; };
+		D0B038DD1CEACD5100784C7F /* Equipment.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Equipment.storyboard; sourceTree = "<group>"; };
+		D0B038E01CEACD8F00784C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Notes.storyboard; sourceTree = "<group>"; };
+		D0B038E21CEACDF900784C7F /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		D0B038E51CEACE4B00784C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Life.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +115,10 @@
 		D0B0389F1CE8452600784C7F /* HandyCharacterApp */ = {
 			isa = PBXGroup;
 			children = (
+				D0B038D21CE8456F00784C7F /* ViewController */,
+				D0B038D11CE8456600784C7F /* Storyboard */,
 				D0B038A01CE8452600784C7F /* AppDelegate.swift */,
 				D0B038A21CE8452600784C7F /* ViewController.swift */,
-				D0B038A41CE8452600784C7F /* Main.storyboard */,
 				D0B038AA1CE8452600784C7F /* Assets.xcassets */,
 				D0B038AC1CE8452600784C7F /* LaunchScreen.storyboard */,
 				D0B038AF1CE8452600784C7F /* Info.plist */,
@@ -126,6 +143,29 @@
 				D0B038C51CE8452600784C7F /* Info.plist */,
 			);
 			path = HandyCharacterAppUITests;
+			sourceTree = "<group>";
+		};
+		D0B038D11CE8456600784C7F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D0B038A41CE8452600784C7F /* Main.storyboard */,
+				D0B038E41CEACE4B00784C7F /* Life.storyboard */,
+				D0B038E21CEACDF900784C7F /* Settings.storyboard */,
+				D0B038DF1CEACD8F00784C7F /* Notes.storyboard */,
+				D0B038DD1CEACD5100784C7F /* Equipment.storyboard */,
+				D0B038DA1CEACBE300784C7F /* Action.storyboard */,
+				D0B038D81CEAC7D000784C7F /* Stats.storyboard */,
+				D0B038D51CE8468C00784C7F /* Profile.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		D0B038D21CE8456F00784C7F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0B038D31CE8458500784C7F /* ProfileViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +272,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B038E61CEACE4B00784C7F /* Life.storyboard in Resources */,
+				D0B038E11CEACD8F00784C7F /* Notes.storyboard in Resources */,
 				D0B038AE1CE8452600784C7F /* LaunchScreen.storyboard in Resources */,
+				D0B038DE1CEACD5100784C7F /* Equipment.storyboard in Resources */,
 				D0B038AB1CE8452600784C7F /* Assets.xcassets in Resources */,
+				D0B038D91CEAC7D000784C7F /* Stats.storyboard in Resources */,
+				D0B038D71CE8468C00784C7F /* Profile.storyboard in Resources */,
+				D0B038E31CEACDF900784C7F /* Settings.storyboard in Resources */,
+				D0B038DC1CEACBE300784C7F /* Action.storyboard in Resources */,
 				D0B038A61CE8452600784C7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +308,7 @@
 			files = (
 				D0B038A31CE8452600784C7F /* ViewController.swift in Sources */,
 				D0B038A91CE8452600784C7F /* HandyCharacterApp.xcdatamodeld in Sources */,
+				D0B038D41CE8458500784C7F /* ProfileViewController.swift in Sources */,
 				D0B038A11CE8452600784C7F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +359,38 @@
 				D0B038AD1CE8452600784C7F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D0B038D51CE8468C00784C7F /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B038D61CE8468C00784C7F /* Base */,
+			);
+			name = Profile.storyboard;
+			sourceTree = "<group>";
+		};
+		D0B038DA1CEACBE300784C7F /* Action.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B038DB1CEACBE300784C7F /* Base */,
+			);
+			name = Action.storyboard;
+			sourceTree = "<group>";
+		};
+		D0B038DF1CEACD8F00784C7F /* Notes.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B038E01CEACD8F00784C7F /* Base */,
+			);
+			name = Notes.storyboard;
+			sourceTree = "<group>";
+		};
+		D0B038E41CEACE4B00784C7F /* Life.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B038E51CEACE4B00784C7F /* Base */,
+			);
+			name = Life.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
