@@ -8,7 +8,7 @@
         <!--Settings & Info-->
         <scene sceneID="2Xh-lz-Cvs">
             <objects>
-                <viewController id="FVh-fw-OYe" sceneMemberID="viewController">
+                <viewController id="FVh-fw-OYe" customClass="SettingViewController" customModule="HandyCharacterApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tYa-C6-VLg"/>
                         <viewControllerLayoutGuide type="bottom" id="sWy-3h-ToG"/>

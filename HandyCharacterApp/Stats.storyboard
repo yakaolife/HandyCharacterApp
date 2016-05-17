@@ -8,7 +8,7 @@
         <!--StatsView-->
         <scene sceneID="cNz-gw-a8a">
             <objects>
-                <viewController id="r8u-Zd-HfC" sceneMemberID="viewController">
+                <viewController id="r8u-Zd-HfC" customClass="StatsViewController" customModule="HandyCharacterApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="p49-Y0-pHB"/>
                         <viewControllerLayoutGuide type="bottom" id="JpR-8p-2JK"/>

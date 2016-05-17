@@ -8,7 +8,7 @@
         <!--Notes-->
         <scene sceneID="3Jr-Ca-qpB">
             <objects>
-                <viewController id="VQP-67-4Wo" sceneMemberID="viewController">
+                <viewController id="VQP-67-4Wo" customClass="NotesViewController" customModule="HandyCharacterApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0Zh-qI-5gB"/>
                         <viewControllerLayoutGuide type="bottom" id="g7E-wv-TNf"/>

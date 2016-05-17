@@ -8,7 +8,7 @@
         <!--Skills-->
         <scene sceneID="Wj9-gn-qNk">
             <objects>
-                <viewController id="Bxp-QH-74y" sceneMemberID="viewController">
+                <viewController id="Bxp-QH-74y" customClass="ActionViewController" customModule="HandyCharacterApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NtN-aR-sej"/>
                         <viewControllerLayoutGuide type="bottom" id="SjI-bp-jBC"/>

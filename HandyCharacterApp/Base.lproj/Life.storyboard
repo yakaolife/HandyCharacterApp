@@ -8,7 +8,7 @@
         <!--Life-->
         <scene sceneID="UKf-ZA-KMB">
             <objects>
-                <viewController id="t9s-9v-QkA" sceneMemberID="viewController">
+                <viewController id="t9s-9v-QkA" customClass="LifeViewController" customModule="HandyCharacterApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kfq-K7-gH0"/>
                         <viewControllerLayoutGuide type="bottom" id="IHK-2a-42q"/>
