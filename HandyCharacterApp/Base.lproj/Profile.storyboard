@@ -283,6 +283,27 @@
                     <navigationItem key="navigationItem" title="Profile" id="O0y-mh-hHC"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="1100"/>
+                    <connections>
+                        <outlet property="alignmentLabel" destination="8h8-3S-NI5" id="im6-GR-lp2"/>
+                        <outlet property="backgroundDesLabel" destination="sIf-ZL-g3u" id="clF-sE-rbt"/>
+                        <outlet property="backgroundLabel" destination="6wK-hm-PIt" id="wNr-Ia-yb3"/>
+                        <outlet property="backgroundView" destination="JAl-2O-OcC" id="p43-2f-ByZ"/>
+                        <outlet property="bondLabel" destination="Ygx-9B-8vZ" id="9R4-w8-y34"/>
+                        <outlet property="bondView" destination="Hua-4d-Lbd" id="xF4-1m-Obi"/>
+                        <outlet property="characterImageView" destination="NSV-SB-sgO" id="nWp-Ta-BSE"/>
+                        <outlet property="characterNameBG" destination="rqB-dp-3kU" id="KL0-EJ-DyH"/>
+                        <outlet property="characterNameLabel" destination="GJP-Ka-CuZ" id="xNF-ut-OHD"/>
+                        <outlet property="classLabel" destination="c9Y-4W-zU9" id="Mg2-K7-zzu"/>
+                        <outlet property="classTypeView" destination="wHs-9g-FFq" id="iF3-XW-98X"/>
+                        <outlet property="flawLabel" destination="OOL-O7-Adc" id="bbE-eB-rOO"/>
+                        <outlet property="flawView" destination="Bac-la-bwA" id="jXy-2M-1KA"/>
+                        <outlet property="idealLabel" destination="UcO-rW-4UZ" id="LmI-Vk-a6s"/>
+                        <outlet property="idealsView" destination="UUP-tA-wdp" id="8pL-YF-Pnt"/>
+                        <outlet property="levelTextField" destination="lZW-4c-QTa" id="6JY-K8-7QK"/>
+                        <outlet property="personalityTraitLabel" destination="Vla-bb-Sa1" id="igs-TE-IZX"/>
+                        <outlet property="personalityView" destination="1Oh-Bd-HTH" id="nYB-V5-zUB"/>
+                        <outlet property="raceLabel" destination="eyk-kj-jnz" id="DQD-cQ-6hj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
