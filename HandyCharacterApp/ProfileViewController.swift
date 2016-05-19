@@ -15,22 +15,30 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var characterImageView: UIImageView!
     @IBOutlet weak var characterNameBG: UIImageView!
     @IBOutlet weak var levelTextField: UITextField!
-    @IBOutlet weak var characterNameLabel: UILabel!
+
+    @IBOutlet weak var characterNameTextField: UITextField!
     
     //Class & Type
     
-    @IBOutlet weak var classLabel: UILabel!
-    @IBOutlet weak var raceLabel: UILabel!
-    @IBOutlet weak var backgroundLabel: UILabel!
-    @IBOutlet weak var alignmentLabel: UILabel!
+    @IBOutlet weak var classTextField: UITextField!
+
+    @IBOutlet weak var raceTextField: UITextField!
+    
+    @IBOutlet weak var backgroundTextField: UITextField!
+    
+    @IBOutlet weak var alignmentTextField: UITextField!
     
     //Profile
+    @IBOutlet weak var personalityTextView: UITextView!
     
-    @IBOutlet weak var personalityTraitLabel: UILabel!
-    @IBOutlet weak var backgroundDesLabel: UILabel!
-    @IBOutlet weak var idealLabel: UILabel!
-    @IBOutlet weak var bondLabel: UILabel!
-    @IBOutlet weak var flawLabel: UILabel!
+    @IBOutlet weak var backgroundTextView: UITextView!
+
+    @IBOutlet weak var idealTextView: UITextView!
+    
+    @IBOutlet weak var bondTextView: UITextView!
+    
+    @IBOutlet weak var flawTextView: UITextView!
+    
     
     //UIViews
     @IBOutlet weak var classTypeView: UIView!
