@@ -10,6 +10,9 @@ import UIKit
 
 class ProfileViewController: UIViewController {
     
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+    
     //Top portion:
     
     @IBOutlet weak var characterImageView: UIImageView!
@@ -52,12 +55,21 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //TODO: Doesn't work on simulator: might work on real device?
+        scrollView.keyboardDismissMode = .Interactive
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+
+    //Only tab on scrollview will dismiss
+    //TODO: Do we need this?
+    @IBAction func dismissKeyboard(sender: AnyObject) {
+        scrollView.endEditing(true)
     }
     
 
