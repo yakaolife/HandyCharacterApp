@@ -8,68 +8,38 @@
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class ProfileViewController: UIViewController, UITextFieldDelegate{
     
-    @IBOutlet weak var scrollView: UIScrollView!
-    
-    
-    //Top portion:
-    
-    @IBOutlet weak var characterImageView: UIImageView!
-    @IBOutlet weak var characterNameBG: UIImageView!
     @IBOutlet weak var levelTextField: UITextField!
 
     @IBOutlet weak var characterNameTextField: UITextField!
     
-    //Class & Type
-    
-    @IBOutlet weak var classTextField: UITextField!
-
-    @IBOutlet weak var raceTextField: UITextField!
-    
-    @IBOutlet weak var backgroundTextField: UITextField!
-    
-    @IBOutlet weak var alignmentTextField: UITextField!
-    
-    //Profile
-    @IBOutlet weak var personalityTextView: UITextView!
-    
-    @IBOutlet weak var backgroundTextView: UITextView!
-
-    @IBOutlet weak var idealTextView: UITextView!
-    
-    @IBOutlet weak var bondTextView: UITextView!
-    
-    @IBOutlet weak var flawTextView: UITextView!
-    
-    
-    //UIViews
-    @IBOutlet weak var classTypeView: UIView!
-    @IBOutlet weak var personalityView: UIView!
-    @IBOutlet weak var backgroundView: UIView!
-    @IBOutlet weak var idealsView: UIView!
-    @IBOutlet weak var bondView: UIView!
-    @IBOutlet weak var flawView: UIView!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        //TODO: Doesn't work on simulator: might work on real device?
-        scrollView.keyboardDismissMode = .Interactive
         
+        characterNameTextField.delegate = self;
+        
+        //Adding UITapGestureRecogniser to dismiss keyboard from UITextFiel
+        let tapRecogniser = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tapRecogniser)
+        
+    }
+    
+    // MARK: Dismiss Keyboard
+    
+    func dismissKeyboard(){
+        view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-
-    //Only tab on scrollview will dismiss
-    //TODO: Do we need this?
-    @IBAction func dismissKeyboard(sender: AnyObject) {
-        scrollView.endEditing(true)
     }
     
 
